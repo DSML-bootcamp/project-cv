@@ -61,7 +61,7 @@ def predict(image):
 
 my_expander = st.expander(label='Hello there 👋')
 with my_expander:
-    'Three data scientist budies made this'
+    'Three data scientist budies made this classifier using CNN with PyTorch 🚀'
 
 
 # Streamlit app
@@ -84,7 +84,7 @@ with col2:
 #st.image(ironhack, width=200)
 #st.title('Bone Fracture Detection')
 st.write('Upload an X-ray image to detect if there is a fracture or not.')
-st.write('Under any circumstance use this app for autodiagnosis purposes.')
+st.write('Do not use this app for autodiagnosis purposes under any circumstances.')
 
 # LinkedIn buttons for creators
 #st.subheader("Creators")
